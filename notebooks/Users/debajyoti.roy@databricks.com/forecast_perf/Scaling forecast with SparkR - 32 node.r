@@ -240,9 +240,9 @@ read.parquet(prediction_location) %>%
 # MAGIC 
 # MAGIC |Time in minutes|Worker count|AWS instance type|Count of time-series(each with n=24)|
 # MAGIC |---|---|---|---|
-# MAGIC |x|4|i3.xlarge|1,000,000|
+# MAGIC |62.4|4|i3.xlarge|1,000,000|
 # MAGIC |17.78|16|i3.xlarge|1,000,000|
-# MAGIC |x|32|i3.xlarge|1,000,000|
+# MAGIC |9.94|32|i3.xlarge|1,000,000|
 
 # COMMAND ----------
 
