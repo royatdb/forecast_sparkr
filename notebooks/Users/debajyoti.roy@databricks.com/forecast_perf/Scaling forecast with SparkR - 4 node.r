@@ -133,8 +133,8 @@ prediction %>%
 
 # COMMAND ----------
 
-training_location <- "/mnt/scaling_ts_r/training"
-prediction_location <- "/mnt/scaling_ts_r/prediction"
+training_location <- "/mnt/scaling_ts_r_4/training"
+prediction_location <- "/mnt/scaling_ts_r_4/prediction"
 
 # COMMAND ----------
 
@@ -240,8 +240,7 @@ read.parquet(prediction_location) %>%
 # MAGIC 
 # MAGIC |Time in minutes|Worker count|AWS instance type|Count of time-series(each with n=24)|
 # MAGIC |---|---|---|---|
-# MAGIC |x|4|i3.xlarge|1,000,000|
-# MAGIC |x|16|i3.xlarge|1,000,000|
+# MAGIC |62.4|4|i3.xlarge|1,000,000|
 
 # COMMAND ----------
 
